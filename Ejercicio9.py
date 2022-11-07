@@ -1,5 +1,3 @@
-basetotal = 0
-repetir = 0
 print("Dime la base")
 base = int(input())
 basetotal = base
