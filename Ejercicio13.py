@@ -10,5 +10,5 @@ for x in range(1,7):
     print("Dime las horas que trabajastes en cada día")
     cobrahora = int(input())
     cobrahorastotales = cobrahorastotales + cobrahora
-print("Has trabajado un total de", horastotales)
+print("Has trabajado un total de", horastotales,"horas")
 print("El sueldo que recibira es de", cobrahorastotales)
