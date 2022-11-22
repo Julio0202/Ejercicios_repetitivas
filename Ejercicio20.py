@@ -18,4 +18,4 @@ while contador>0:
         Vnum.append(i)
         contador-=1
     i+=1
-print("Los numeros primos son",Vnum)    
+print("Los numeros primos son",Vnum)
