@@ -8,12 +8,7 @@ def descargaCancion(url:str):
     youtube = YouTube(url)
     print(youtube.author)
     cancion = youtube.streams.get_audio_only()
-    cancion.download
-def descargarLista(url:str):
-    playlist = Playlist(url)
-    for cancion in playlist.videos:
-        cancion.streams.get_audio_only().download("Canciones")
-        print("Descargando cancion:", cancion.author)
+    cancion.download   
 
 ventana = Tk()
 ventana.title("Descargar musica")

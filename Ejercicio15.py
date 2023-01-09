@@ -1,9 +1,10 @@
-pagadototal = 10
+pagadototal = 0
 vmes = []
+pagadomes = 0
 for i in range(1,21):
-    pagadototal = pagadototal*2
-    vmes.append(pagadototal)
-print("En total pagastes", pagadototal)
-print("Dime en que mes")
-x = int(input())
-print("En ese mes pagastes", vmes[x-1])
+    vmes.append(pagadomes)
+    pagadototal = pagadomes + pagadototal
+print("Has pagado un total de", pagadototal)
+print("Dime el mes que quieres saber cuanto has pagado")
+xx = int(input())
+print(vmes[xx])

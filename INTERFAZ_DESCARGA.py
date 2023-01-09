@@ -17,7 +17,7 @@ url = "https://www.youtube.com/watch?v=HKNz0DWQXZw&list=PLVwXkzK42QWrWyeunQ_hi4O
 
 def saludar():
     texto = campoTexto.get()
-    textoLabel.set(texto)
+    Textlabel.set(texto)
 
 #Generar la ventana
 ventana = Tk()
@@ -31,9 +31,9 @@ ventana.iconbitmap()
 frm = ttk.Frame(ventana, padding=20).pack()
 
 #Componentes Label y button
-textoLabel = StringVar()
-textoLabel.set("Hola tkinter")
-labelTexto = ttk.Label(frm, textvariable=textoLabel) 
+Textlabel = StringVar()
+Textlabel.set("Hola tkinter")
+labelTexto = ttk.Label(frm, textvariable=Textlabel) 
 labelTexto.config(background="red",border=5,font=("Arial",15))
 labelTexto.pack()
 
